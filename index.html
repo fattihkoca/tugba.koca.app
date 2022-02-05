@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tuğba Koca</title>
+    <meta name="description" content="Tuğba Koca Classest kurucu ortağı, evli ve 2 çocuk annesidir. | Tuğba Koca is wife, mom of two, co-founder of Classest.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.json">
+
+    <script>
+        (function () {
+            if (!('serviceWorker' in navigator)) return;
+            navigator.serviceWorker.register('service-worker.js');
+        })();
+    </script>
+    <script src="js/bootstrap.js"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Person",
+            "name": "Tuğba Koca",
+            "image": "https://gravatar.com/avatar/3f095bb1b58150b6714e2dcac1fe1472?s=300",
+            "knowsAbout": "Entrepreneur, wife, mom of two | Girişimci, evli ve 2 çocuk annesidir",
+            "jobTitle": "EdTech, Web dev, Mobile app, IoT, DevOps, UI/UX, İTÜ Çekirdek, BTM Kuluçka, TİM-TEB",
+            "sameAs": [
+                "https://linkedin.com/in/tubayraktarkoca",
+                "https://twitter.com/tubayraktarkoca"
+            ],
+            "worksFor": [
+                {
+                    "@type": "Organization",
+                    "name": "Classest",
+                    "url": "https://classest.com",
+                    "founder": {
+                        "@type": "Person",
+                        "name": "Tuğba Koca"
+                    }
+                }
+            ]
+        }
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6676777-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        gtag('js', new Date());
+        gtag('config', 'UA-6676777-3');
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+    </script>
+</head>
+<body>
+<section id="intro" class="relative" data-visible="true">
+    <div class="container">
+        <div id="profile-img" class="fit-img" data-cph>
+            <img id="image">
+        </div>
+
+        <h1 id="name" data-cph>...</h1>
+        <h2 id="knows" class="description" data-cph>...</h2>
+        <h3 id="title" class="description" data-cph>...</h3>
+        <h4 id="career" class="description affluent-link" data-cph>...</h4>
+        <ul id="social"></ul>
+
+        <button id="open-posts-handle" data-cph title="Show posts">Show Posts</button>
+    </div>
+</section>
+
+<section id="posts" data-visible="false">
+    <div class="container">
+        <button id="close-posts-handle" title="Hide posts"></button>
+        <h5 id="posts-title"></h5>
+        <div id="curator-feed-default-feed-layout">
+            <a id="posts-provider" href="https://curator.io" target="_blank" rel="noreferrer"
+               class="crt-logo crt-tag"></a>
+        </div>
+    </div>
+</section>
+
+<script src="js/main.js"></script>
+</body>
+</html>
