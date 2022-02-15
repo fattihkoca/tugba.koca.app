@@ -55,7 +55,22 @@ let url = "data.json",
         if(!data.video) {
             return id("video").remove();
         }
-        id("video").innerHTML = "<iframe src=\""+ data.video +"\" title=\""+ data.name +"\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>";
+
+        let video = createEl("iframe"),
+            attr = [
+                ["src", data.video],
+                ["title", data.name],
+                ["frameborder", "0"],
+                ['allow', "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"],
+                ["allowfullscreen", ""],
+            ];
+
+        for(let a in attr) {
+            video.setAttribute(attr[a][0], attr[a][1]);
+        }
+
+        id("video").innerHTML = null;
+        id("video").appendChild(video);
     },
     addContents = function () {
         id("contents").innerHTML = null;
@@ -63,8 +78,8 @@ let url = "data.json",
         for(let key in data.contents) {
             let d = data.contents[key],
                 item = createEl("ul");
-            item.setAttribute("class", "content content-" + key);
 
+            item.setAttribute("class", "content content-" + key);
             for (let i in d) {
                 let subItem = createEl("li");
                 subItem.innerHTML = mmd(d[i]);
