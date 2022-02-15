@@ -55,7 +55,6 @@ let url = "data.json",
         if(!data.video) {
             return id("video").remove();
         }
-
         id("video").innerHTML = "<iframe src=\""+ data.video +"\" title=\""+ data.name +"\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>";
     },
     addContents = function () {
