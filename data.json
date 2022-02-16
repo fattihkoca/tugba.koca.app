@@ -26,13 +26,5 @@
   "posts": {
     "title": "Tuğba Koca's Posts",
     "provider": "Powered by Curator.io"
-  },
-  "knows": "🏷 Entrepreneur, wife (Fatih Koca), mother of two 👨‍👩‍👧‍👦",
-  "career": [
-    {
-      "title": "Co-Founder of",
-      "company": "Classest",
-      "url": "https://classest.com"
-    }
-  ]
+  }
 }
