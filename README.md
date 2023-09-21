@@ -2,12 +2,12 @@
 
 
 🏢 COO & o-Founder of [Classest](https://classest.com)  
-🏷 Entrepreneur, Startup Investor
-👨‍👩‍👧‍👦 Wife ([Fatih Koca](https://fatih.koca.app)), Mother of Two 
-👩‍💼 Sales & Corporate Communications
+🏷 Entrepreneur, Startup Investor  
+👨‍👩‍👧‍👦 Wife ([Fatih Koca](https://fatih.koca.app)), Mother of Two  
+👩‍💼 Sales & Corporate Communications  
 🔎 EdTech, StartUp, Marketing  
-🥘 Cooking, Cake Design, Personal Style Design, Book Lover 
-📍 [İstanbul](https://maps.app.goo.gl/UU6mM7UqKngpTcoc7), Turkey
+🥘 Cooking, Cake Design, Personal Style Design, Book Lover  
+📍 [İstanbul](https://maps.app.goo.gl/UU6mM7UqKngpTcoc7), Turkey  
 
 --
 
