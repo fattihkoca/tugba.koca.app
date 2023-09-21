@@ -308,7 +308,7 @@ var pWeb = (function () {
                                 {tag: "h6", attr: {id: this.rid("posts-title")}},
                                 {
                                     tag: "div",
-                                    attr: {id: "curator-feed-default-feed-layout"},
+                                    attr: {id: "curator-feed"},
                                     children: [
                                         {
                                             tag: "a",
